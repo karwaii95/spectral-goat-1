@@ -4,3 +4,5 @@ KEYS001:
     - .*secrets/rsa/rsa.key*
 SENF005:
     - .*ipython_security.asc*
+CLD001:
+    - .*fb.json*
