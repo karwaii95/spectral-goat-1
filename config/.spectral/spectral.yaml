@@ -4,7 +4,11 @@ reporter:
 
 match_ignores:
     ignores:
-    # - match_fingerprint: b76fe610abe3bdaa92d4002dc0516dfa21c2dbf520373c6203469d0dee369888
+     - match_text: Visible AWS Key
+     - rule_id: rule id, CLD001
+     - rule_name: <rule_name, Visible AWS Key>
+     - match_text: Visible AWS Key
+     - match_fingerprint: 980390a24f73f86981d48317d9b286c1895ec9a916fb7543d79233ced0a3bf25
      - path: .*
 
 projects:

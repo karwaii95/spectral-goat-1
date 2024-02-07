@@ -5,4 +5,10 @@ KEYS001:
 SENF005:
     - .*ipython_security.asc*
 CLD001:
-    - .*fb.json*
+    - .*spectral-goat\src\frontend\fb.json*
+AWS001:
+    - .*create-react-context/.*
+CLD001:
+    - .src/frontend/fb.json
+CLD001:
+    - .*src/frontend/fb.json*
