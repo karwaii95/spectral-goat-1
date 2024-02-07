@@ -5,4 +5,4 @@ KEYS001:
 SENF005:
     - .*ipython_security.asc*
 CLD001:
-    - .*src/frontend/fb.json*
+    - .*fb.json*
