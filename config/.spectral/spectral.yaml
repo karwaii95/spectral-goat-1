@@ -5,12 +5,12 @@ reporter:
 match_ignores:
     ignores:
      - path: .*
-#     - match_text: Visible AWS Key
- #    - rule_id: CLD001
-  #   - rule_name: Visible AWS Key
-   #  - match_text: Visible AWS Key
-    # - match_fingerprint: 980390a24f73f86981d48317d9b286c1895ec9a916fb7543d79233ced0a3bf25
-     #- match_fingerprint: 47e66ec7625440d8c14f9ff3390193a91e06d5a4ec9edef31eb6f33b4b0577f7
+     - match_text: Visible AWS Key
+     - rule_id: CLD001
+     - rule_name: Visible AWS Key
+     - match_text: Visible AWS Key
+     - match_fingerprint: 980390a24f73f86981d48317d9b286c1895ec9a916fb7543d79233ced0a3bf25
+     - match_fingerprint: 47e66ec7625440d8c14f9ff3390193a91e06d5a4ec9edef31eb6f33b4b0577f7
      
 projects:
     default:
