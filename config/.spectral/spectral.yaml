@@ -20,6 +20,11 @@ projects:
             - local: .
               name: sources
         rules:
+            include:
+                ids: [CLD001, MEMC002, TF010, GOOG001]
+                tags:
+                    - audit
+                    - base
             exclude:
                 ids: [CLD001, MEMC002, TF010, GOOG001]
                 tags:
